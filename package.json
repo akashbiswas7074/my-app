@@ -6,9 +6,21 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@twistezo/react-text-scramble": "^1.0.6",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.7.1",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-image-zoom": "^1.3.1",
+    "react-medium-image-zoom": "^5.1.8",
+    "react-pageflip": "^2.0.3",
+    "react-pinch-zoom": "^0.1.4",
     "react-scripts": "5.0.1",
+    "react-zoom-pan-pinch": "^3.3.0",
+    "sass": "^1.69.5",
+    "turn.js": "^1.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss-nesting": "^12.0.2",
+    "tailwindcss": "^3.3.6"
   }
 }
