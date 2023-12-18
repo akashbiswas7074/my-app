@@ -446,12 +446,7 @@ img{
 	justify-content: center;
 
 }
-.stf__parent{
-	flex: content;
-	-ms-flex-align: center;
-	margin: 0 auto;
-	max-width: fit-content;
-}
+
 
 	.back3{
 		padding-top: 5px;
@@ -459,11 +454,6 @@ img{
 		margin-top: 4px;
 	}
 
-	.demo-block{
-		top: auto;
-		left: auto;
-		margin-top: 40px;
-	}
 
 	
 	/* ... (previous CSS rules) ... */
@@ -473,36 +463,10 @@ img{
 /* ... (previous CSS rules) ... */
 
 /* Center the parent container */
-.stf__parent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: fit-content;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-.stf__block {
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    box-sizing: border-box;
-    perspective: 2000px;
-}
 
 /* Arrange elements in a grid layout */
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    gap: 20px;
-}
+
 
 .button1, .button2 {
     display: flex;
@@ -684,6 +648,9 @@ img{
 			/* Show for screens wider than 1281px */
 		}
 	}
+	
+
+
 	/*! CSS Used from: https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css */
 *,
 ::after,
